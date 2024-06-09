@@ -30,15 +30,6 @@ class Solution {
 O(n) is the time complexity, where n is the array's element count. This is as a result of the solution's single array iteration.
 O(1) space complexity because, other from a few variables, no additional space is needed.
 
-Example:
-const solution = new Solution();
-const arr = [1, 2, 3, 4, 5];
-const n = arr.length;
-console.log(solution.largest(arr, n));
-
-Output:
-5
-
 ## 2.[Score of a String](https://leetcode.com/problems/score-of-a-string/) | LeetCode.
 
 ## Problem Statement
