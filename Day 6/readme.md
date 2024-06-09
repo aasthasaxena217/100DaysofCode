@@ -12,14 +12,17 @@ Return the unique number.
 ```javascript
 class SingleNumber {
     public int findSingle(int[] nums) {
-        int uniqueNumber = 0; // Initialize the unique number.
+        int uniqueNumber = 0; 
         for (int num : nums) {
-            uniqueNumber ^= num; // Using XOR to find the unique number.
+            uniqueNumber ^= num; 
         }
-        return uniqueNumber; // Return the unique number.
+        return uniqueNumber; 
     }
 }
+
 ```
+XOR is a logical operation that returns true (or 1) if and only if the operands are different.
+
 
 **Time Complexity: O(n) **- We traverse the entire array once.
 
