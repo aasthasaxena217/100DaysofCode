@@ -1,6 +1,6 @@
-# Running Sum of 1D Array
+#  [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 
-This repository contains solutions to the problem of calculating the running sum of a 1D array.
+This repository contains the code in JavaScript.
 
 ## Problem Description
 
@@ -20,12 +20,6 @@ Given an array of numbers, return a new array where each element at index `i` is
 Here is the implementation using the `map` function:
 
 ```javascript
-/**
- * Computes the running sum of an array using the map function.
- *
- * @param {number[]} nums - The input array of numbers.
- * @return {number[]} - The running sum array.
- */
 function runningSum(nums) {
     let result = 0;
     return nums.map(item => result += item);
