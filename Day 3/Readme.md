@@ -25,9 +25,9 @@ function runningSum(nums) {
     return nums.map(item => result += item);
 }
 ```
-**Why map?**:"The map function helps make a new array by changing each item in the original one. It's like a shortcut that makes the code shorter and easier to understand. For each item in the array, we do something to it and then put the new item in the new array."
+**Why map?**:"The map function helps us in making a new array by changing each item in the original one. It's like a shortcut that makes the code shorter and easier to understand. For each item in the array, we do something to it and then put the new item in the new array."
 
-### Approach 1: Using simple for loop
+### Approach 2: Using simple for loop
 
 1. **Initialize**: Set a variable result to zero and create an empty array runningSums to store the results.
 2. **Iterate**: Use a for loop to iterate over each element in the array.
