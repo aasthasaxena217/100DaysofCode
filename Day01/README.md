@@ -1,4 +1,4 @@
-This repository contains solutions for the following problems:
+This repository contains solutions for the following problems in JavaScript:
 
 # GeeksForGeeks Array Problems Solutions
 
@@ -40,3 +40,36 @@ console.log(solution.largest(arr, n));
 
 Output:
 5
+
+## 2.[Score of a String](https://leetcode.com/problems/score-of-a-string/) problem on LeetCode.
+
+## Problem Statement
+
+Given a string `s`, find the score of the string. The score is the sum of the absolute differences of the ASCII values of each pair of adjacent characters.
+
+### Approach
+
+1. **Initialize**: Start with a `score` of zero.
+2. **Iterate**: Loop through the string from the first character to the second to last character.
+   - `for (let i = 0; i < s.length - 1; i++)` ensures we don't go out of bounds.
+3. **Calculate**: For each character, find the absolute difference between its ASCII value and the next character's ASCII value.
+4. **Accumulate**: Add this difference to `score`.
+5. **Return**: Return the final `score` after the loop ends.
+6. charCodeAt method is a built-in JavaScript function that returns the Unicode value(ASCII value).
+    
+### Solution
+
+```javascript
+function scoreOfString(s) {
+    let score = 0;
+    for (let i = 0; i < s.length - 1; i++) {
+        score += Math.abs(s.charCodeAt(i) - s.charCodeAt(i + 1));
+    }
+    return score;
+}
+```
+
+### Complexity
+
+- **Time Complexity**: O(n) - We process each character once.
+- **Space Complexity**: O(1) - We use a fixed amount of extra space.
