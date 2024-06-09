@@ -8,10 +8,11 @@ This repository contains solutions for the following problems:
 Given an array, find the largest element in it.
 
 ### Approach
--Initialization: Assume (max = arr[0]) that the greatest element in the array is the first one.
--Count through the array iteratively.
--Update Max with the element if any of the elements exceed it.
--Result: By traversing the array we get max, that contains the largest member in the array. 
+
+1. **Initialization**: Assume (max = arr[0]) that the greatest element in the array is the first one.
+2. **Count through the array iteratively**.
+3. **Update Max** with the element if any of the elements exceed it.
+4. **Result**: By traversing the array we get max, that contains the largest member in the array.
 
 ### Solution
 ```javascript
