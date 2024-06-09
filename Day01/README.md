@@ -70,4 +70,4 @@ function scoreOfString(s) {
 ### Complexity
 
 - **Time Complexity**: O(n) - We process each character once.
-- **Space Complexity**: O(1) - We use a fixed amount of extra space.
+- **Space Complexity**: O(1) - fixed amount of array space.
