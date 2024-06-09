@@ -1,8 +1,6 @@
 This repository contains solutions for the following problems in JavaScript:
 
-# GeeksForGeeks Array Problems Solutions
-
-## 1. [Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/)
+## 1. [Largest Element in Array](https://www.geeksforgeeks.org/problems/largest-element-in-array4009/) | GFG
 
 ### Problem Statement
 Given an array, find the largest element in it.
@@ -41,7 +39,7 @@ console.log(solution.largest(arr, n));
 Output:
 5
 
-## 2.[Score of a String](https://leetcode.com/problems/score-of-a-string/) problem on LeetCode.
+## 2.[Score of a String](https://leetcode.com/problems/score-of-a-string/) | LeetCode.
 
 ## Problem Statement
 
